@@ -1,0 +1,25 @@
+.pic-width {
+  width : 8rem;
+}
+
+.error-msg {
+  color : white;
+  font-weight: bold;
+  padding: .5rem;
+  background-color: darkred;
+  margin: .5rem 0;
+  border-radius: .5rem;
+}
+
+.success-msg {
+  color: white;
+  font-weight: bold;
+  padding: .5rem;
+  margin: .5rem 0; 
+  border-radius: .5rem;
+  background-color: darkgreen
+}
+
+input[type=checkbox] {
+  width: 5%;
+}

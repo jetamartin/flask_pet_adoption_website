@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %} Add a Pet {% endblock %}
+{% block content %}
+{% for msg in get_flashed_messages() %}
+  <div>{{ msg }}</div>
+{% endfor %}
+<div class='container'>
+  <form class="col-7 mx-auto" id="pet-add-form" method="POST">
+    {% include "_form.html" %}
+    <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+  </form>
+</div>
+
+{% endblock %}
